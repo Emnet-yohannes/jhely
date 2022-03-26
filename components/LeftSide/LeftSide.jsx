@@ -24,7 +24,7 @@ const LeftSide = () => {
             </Image>
           </div>
 
-          <h1 className='pl-2'>
+          <h1 className='pl-2'>s
             Lorem Ipsum
           </h1>
         </div>

@@ -28,14 +28,14 @@ export default function Home() {
         </div>
           
           <div className="flex justify-center ">
-            <div className="hidden md:block absolute top-[50%]  w-[149px] h-[149px]">
+            <div className="hidden md:block absolute top-[45%]  w-[149px] h-[149px]">
               <Image src={ellipse37} className="rounded-full ">
 
               </Image>
             </div>
 
           </div>
-          <div className="text-center -mt-40 md:-mt-20">
+          <div className="text-center ">
             <h1 className="text-white text-5xl font-extrabold">
               Lorem Ipsum
             </h1>

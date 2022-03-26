@@ -18,37 +18,31 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=" bg-black " >
+      <main className="bg-black " >
         <Navbar />
-        <div className="bg-gradient-to-bl from-[#702640b4]  " >
-        <div className=" h-[400px]">
-        <Image src={image125}>
-
-</Image>
-        </div>
-          
-          <div className="flex justify-center ">
-            <div className="hidden md:block absolute top-[45%]  w-[149px] h-[149px]">
-              <Image src={ellipse37} className="rounded-full ">
-
-              </Image>
+        <div className=" backgroundGradient1" >
+          <div className=" h-[400px] w-full relative flex flex-col items-center">
+            <Image className="w-full" src={image125}/>
+            <div className="hidden md:block absolute bottom-[15%]  w-[149px] h-[149px]">
+              <Image  src={ellipse37} className="w-full rounded-full "/>
             </div>
-
           </div>
+
+          
           <div className="text-center ">
-            <h1 className="text-white text-5xl font-extrabold">
+            <h1 className="text-5xl font-extrabold text-white">
               Lorem Ipsum
             </h1>
             <div className="flex justify-center mt-[6px] h-[40px] ">
-            <div className="w-[239px] flex">
-            <h3 className=" text-base font-normal text-[#F3F3F3]">
-                created by:
-              </h3>
-              <h2 className=" text-base font-normal text-[#FC364C]">
-                Lorem Ipsum
-              </h2>
-            </div>
-             
+              <div className="w-[239px] flex">
+                <h3 className=" text-base font-normal text-[#F3F3F3]">
+                  created by:
+                </h3>
+                <h2 className=" text-base font-normal text-[#FC364C]">
+                  Lorem Ipsum
+                </h2>
+              </div>
+
             </div>
 
             <h3 className="text-white h-[32px] ">
@@ -96,7 +90,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center ">
             <div className="grid grid-cols-1 gap-8 mt-[73px] xl:grid-cols-2">
-              <div className="text-white w-[200px]   w-[340px]  md: w-[591px] h-[344px] ">
+              <div className=" text-white w-[340px]  md: w-[591px] h-[344px] ">
                 <LeftSide />
               </div>
               <div className="text-white mb-[138px]  w-[340px] md:w-[591px] h-[438px]">

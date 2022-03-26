@@ -16,11 +16,11 @@ const RightSide = () => {
     document.getElementById('accordion2').onclick = handleClick2
   }
   return (
-    <div >
-      <div className='bg-[#0D0D0D] opacity-50 '>
+    <div className='hide-scroll-bar'>
+      <div className='bg-[#0D0D0D] opacity-50 hide-scroll-bar '>
       <div id='accordion1' className='flex justify-between p-4' >
         <div className='flex justify-around'>
-          <div className='h-3 w-3'>
+          <div className='w-3 h-3'>
             <Image src={optionIcon}>
 
             </Image>
@@ -40,14 +40,14 @@ const RightSide = () => {
       </div>
         {
           accordionState1 ?
-            <div>
+            <div className='hide-scroll-bar'>
 
               <div className='grid grid-cols-2 gap-x-[12px] gap-y-[10px] bg-[#0D0D0D] opacity-50 overflow-y-auto  h-[360px] ml-[30px] scrollbar   md:grid-cols-3  '>
                 <div className='px-[15px] py-[26px] text-center bg-[#000]  h-[99px]  w-[162px] rounded-lg'>
                   <h3 className='text-[#8E8B8F] text-xs'>
                     Accessories and Ears
                   </h3>
-                  <h1 className='font-extrabold text-base'>
+                  <h1 className='text-base font-extrabold'>
                     Lorem Ipsum
                   </h1>
                   <p className='text-[#8E8B8F] text-xs'>
@@ -58,7 +58,7 @@ const RightSide = () => {
                   <h3 className='text-[#8E8B8F] text-xs'>
                     Accessories and Ears
                   </h3>
-                  <h1 className='font-extrabold text-base'>
+                  <h1 className='text-base font-extrabold'>
                     Lorem Ipsum
                   </h1>
                   <p className='text-[#8E8B8F] text-xs'>
@@ -69,7 +69,7 @@ const RightSide = () => {
                   <h3 className='text-[#8E8B8F] text-xs'>
                     Accessories and Ears
                   </h3>
-                  <h1 className='font-extrabold text-base'>
+                  <h1 className='text-base font-extrabold'>
                     Lorem Ipsum
                   </h1>
                   <p className='text-[#8E8B8F] text-xs'>
@@ -80,7 +80,7 @@ const RightSide = () => {
                   <h3 className='text-[#8E8B8F] text-xs'>
                     Accessories and Ears
                   </h3>
-                  <h1 className='font-extrabold text-base'>
+                  <h1 className='text-base font-extrabold'>
                     Lorem Ipsum
                   </h1>
                   <p className='text-[#8E8B8F] text-xs'>
@@ -91,7 +91,7 @@ const RightSide = () => {
                   <h3 className='text-[#8E8B8F] text-xs'>
                     Accessories and Ears
                   </h3>
-                  <h1 className='font-extrabold text-base'>
+                  <h1 className='text-base font-extrabold'>
                     Lorem Ipsum
                   </h1>
                   <p className='text-[#8E8B8F] text-xs'>
@@ -103,7 +103,7 @@ const RightSide = () => {
                   <h3 className='text-[#8E8B8F] text-xs'>
                     Accessories and Ears
                   </h3>
-                  <h1 className='font-extrabold text-base'>
+                  <h1 className='text-base font-extrabold'>
                     Lorem Ipsum
                   </h1>
                   <p className='text-[#8E8B8F] text-xs'>
@@ -114,7 +114,7 @@ const RightSide = () => {
                   <h3 className='text-[#8E8B8F] text-xs'>
                     Accessories and Ears
                   </h3>
-                  <h1 className='font-extrabold text-base'>
+                  <h1 className='text-base font-extrabold'>
                     Lorem Ipsum
                   </h1>
                   <p className='text-[#8E8B8F] text-xs'>
@@ -125,7 +125,7 @@ const RightSide = () => {
                   <h3 className='text-[#8E8B8F] text-xs'>
                     Accessories and Ears
                   </h3>
-                  <h1 className='font-extrabold text-base'>
+                  <h1 className='text-base font-extrabold'>
                     Lorem Ipsum
                   </h1>
                   <p className='text-[#8E8B8F] text-xs'>
@@ -136,7 +136,7 @@ const RightSide = () => {
                   <h3 className='text-[#8E8B8F] text-xs'>
                     Accessories and Ears
                   </h3>
-                  <h1 className='font-extrabold text-base'>
+                  <h1 className='text-base font-extrabold'>
                     Lorem Ipsum
                   </h1>
                   <p className='text-[#8E8B8F] text-xs'>
@@ -147,7 +147,7 @@ const RightSide = () => {
                   <h3 className='text-[#8E8B8F] text-xs'>
                     Accessories and Ears
                   </h3>
-                  <h1 className='font-extrabold text-base'>
+                  <h1 className='text-base font-extrabold'>
                     Lorem Ipsum
                   </h1>
                   <p className='text-[#8E8B8F] text-xs'>
@@ -158,7 +158,7 @@ const RightSide = () => {
                   <h3 className='text-[#8E8B8F] text-xs'>
                     Accessories and Ears
                   </h3>
-                  <h1 className='font-extrabold text-base'>
+                  <h1 className='text-base font-extrabold'>
                     Lorem Ipsum
                   </h1>
                   <p className='text-[#8E8B8F] text-xs'>
@@ -169,7 +169,7 @@ const RightSide = () => {
                   <h3 className='text-[#8E8B8F] text-xs'>
                     Accessories and Ears
                   </h3>
-                  <h1 className='font-extrabold text-base'>
+                  <h1 className='text-base font-extrabold'>
                     Lorem Ipsum
                   </h1>
                   <p className='text-[#8E8B8F] text-xs'>
@@ -186,7 +186,7 @@ const RightSide = () => {
 
       <div id='accordion2' className='flex justify-between p-4 mt-4 '>
         <div className='flex justify-around'>
-          <div className='h-3 w-3'>
+          <div className='w-3 h-3'>
             <Image src={optionIcon}>
 
             </Image>

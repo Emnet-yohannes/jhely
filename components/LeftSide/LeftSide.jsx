@@ -15,9 +15,9 @@ const LeftSide = () => {
     document.getElementById('accordion0').onclick = handleClick
   }
   return (
-    <div className='bg-[#0D0D0D] opacity-50  w-[591px]'>
+    <div className='bg-[#0D0D0D] opacity-50 w-[340px] md:w-[591px]'>
       <div id='accordion0' className='flex justify-between px-[15px] py-[26px]' >
-        <div className='flex justify-around'>
+        <div className='flex justify-around '>
           <div className='h-3 w-3'>
             <Image src={optionIcon}>
 
@@ -38,8 +38,8 @@ const LeftSide = () => {
       </div>
       {
         accordionState ?
-          <div className='pb-[53px]  '>
-            <p className="mb-[42px] text-white text-sm pl-[28px] pr-[92px] font-manrope h-[109px] " >
+          <div className='pb-[53px]  w-[200px]  h-[290px] md: w-[591px] h-[344px] '>
+            <p className="mb-[42px]  text-white text-sm pl-[28px] pr-[92px] font-manrope h-[109px] w-[370px] md: w-[471px]  " >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
               repellat amet doloribus consequuntur eos similique provident
               tempora voluptates iure quia fuga dicta voluptatibus culpa

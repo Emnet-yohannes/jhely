@@ -42,7 +42,7 @@ const RightSide = () => {
           accordionState1 ?
             <div className="w-full">
 
-              <div className='grid grid-cols-2 gap-x-[2px] gap-y-[10px] bg-[#0D0D0D] opacity-50 overflow-y-auto  h-[360px] ml-[30px] scrollbar md:grid-cols-3  '>
+              <div className='grid grid-cols-2 gap-x-[12px] gap-y-[10px] bg-[#0D0D0D] opacity-50 overflow-y-auto  h-[360px] ml-[30px] scrollbar   md:grid-cols-3  '>
                 <div className='px-[15px] py-[26px] text-center bg-[#000]  h-[99px]  w-[162px] rounded-lg'>
                   <h3 className='text-[#8E8B8F] text-xs'>
                     Accessories and Ears

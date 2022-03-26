@@ -15,7 +15,7 @@ const LeftSide = () => {
     document.getElementById('accordion0').onclick = handleClick
   }
   return (
-    <div className='bg-[#0D0D0D] opacity-50 w-[591px] '>
+    <div className='bg-[#0D0D0D] opacity-50  w-[591px]'>
       <div id='accordion0' className='flex justify-between px-[15px] py-[26px]' >
         <div className='flex justify-around'>
           <div className='h-3 w-3'>

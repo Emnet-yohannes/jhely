@@ -96,10 +96,10 @@ export default function Home() {
           </div>
           <div className="flex justify-center ">
             <div className="grid grid-cols-1 gap-8 mt-[73px] xl:grid-cols-2">
-              <div className="text-white sm:120 md: w-[340px] border-2  md:w-[340px]  lg: w-[591px] h-[344px] border-0 ">
+              <div className="text-white  md: w-[340px]  md:w-[340px]  lg: w-[591px] h-[344px] ">
                 <LeftSide />
               </div>
-              <div className="text-white mb-[138px]    lg:w-[591px] h-[438px]">
+              <div className="text-white mb-[138px]   lg:w-[591px] h-[438px]">
                 <RightSide />
               </div>
             </div>

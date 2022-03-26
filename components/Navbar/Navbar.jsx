@@ -13,7 +13,7 @@ const Header = () => (
 
         </Image>
         </div>
-    <div className=' hidden md:block w-[60%] h-[20px] rounded-lg ml-[5%]'>
+    <div className=' hidden md:block w-[657px] h-[45px] rounded-lg ml-[5%]'>
           <SearchBar />
         </div>
         <div className='flex justify-evenly ml-[41px] mr-[40px]    '>

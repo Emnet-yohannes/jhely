@@ -15,7 +15,7 @@ const LeftSide = () => {
     document.getElementById('accordion0').onclick = handleClick
   }
   return (
-    <div className='bg-[#0D0D0D] opacity-50'>
+    <div className='bg-[#0D0D0D] opacity-50 w-[340px] md:w-[591px] '>
       <div id='accordion0' className='flex justify-between px-[15px] py-[26px]' >
         <div className='flex justify-around'>
           <div className='h-3 w-3'>
@@ -38,14 +38,14 @@ const LeftSide = () => {
       </div>
       {
         accordionState ?
-          <div className='pb-[53px] w-96'>
+          <div className='pb-[53px]  '>
             <p className="mb-[42px] text-white text-sm pl-[28px] pr-[92px] font-manrope h-[109px] " >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
               repellat amet doloribus consequuntur eos similique provident
               tempora voluptates iure quia fuga dicta voluptatibus culpa
               mollitia recusandae delectus id suscipit labore?
             </p>
-            <div className='grid grid-rows-2 grid-flow-col gap-y-[19px] '>
+            <div className='grid grid-rows-2 grid-flow-col gap-y-[19px] gap-x-[2px] '>
               <div className='flex justify-start pl-8'>
               <div className='w-5 h-5'>
               <Image src={Vector1}>
@@ -79,7 +79,7 @@ const LeftSide = () => {
                   Lorem ipsum
                 </h1>
               </div>
-              <div className='flex justify-start pl-0'>
+              <div className='flex justify-start'>
               <div className='w-5 h-5'>
               <Image src={Vector4}>
 

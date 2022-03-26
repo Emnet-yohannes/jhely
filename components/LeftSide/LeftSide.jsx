@@ -39,7 +39,7 @@ const LeftSide = () => {
       {
         accordionState ?
           <div className='pb-[53px] w-96'>
-            <p class="mb-[42px] text-white text-sm pl-[28px] pr-[92px] font-manrope h-[109px] " >
+            <p className="mb-[42px] text-white text-sm pl-[28px] pr-[92px] font-manrope h-[109px] " >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
               repellat amet doloribus consequuntur eos similique provident
               tempora voluptates iure quia fuga dicta voluptatibus culpa

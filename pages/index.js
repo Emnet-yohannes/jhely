@@ -55,7 +55,7 @@ export default function Home() {
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
             </h3>
           </div>
-          <div className="flex flex-col space-y-2 items-center md:flex justify-center space-x-[20px] mt-[61px]">
+          <div className="flex justify-center space-x-[20px] mt-[61px]">
 
             <div className="text-white bg-[#0D0D0D] opacity-50 flex justify-center rounded-sm w-[184px] h-[50px] items-center space-x-3">
               <div className="w-4 h-4">

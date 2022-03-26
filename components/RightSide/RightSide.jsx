@@ -40,7 +40,7 @@ const RightSide = () => {
       </div>
         {
           accordionState1 ?
-            <div class="w-96">
+            <div className="w-96">
 
               <div className='grid grid-cols-2 gap-x-[2px] gap-y-[10px] bg-[#0D0D0D] opacity-50 overflow-y-auto  h-[360px] ml-[30px] scrollbar md:grid-cols-3  '>
                 <div className='px-[15px] py-[26px] text-center bg-[#000] h-[129px] '>
